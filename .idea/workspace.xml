@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5788683-9e86-4f29-b8d1-20e1831b89d4" name="Changes" comment="Primera mitad terminada">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio3/DecoradorExportadorReporte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio3/ReporteNoSobreEscrito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio3/ReporteSobreEscrito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio4/Combo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio4/ComboBasico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio4/ComboDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio4/ComboEspecial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio4/ComboFamiliar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio3/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio3/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +49,6 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.ejercicio4.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -108,13 +98,6 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
