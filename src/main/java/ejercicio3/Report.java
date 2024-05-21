@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 class Report implements ExportardorReporte {
-    private String reporte;
+    protected String reporte;
 
     public Report(String reporte) {
         this.reporte = reporte;
