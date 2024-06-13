@@ -13,7 +13,7 @@ public class Participante {
 
     }
 
-    public int calcularPuntos(ConcursoEspecifico concurso) {
+    public int calcularPuntos(Concurso concurso) {
         if (concurso.esPrimerDia()) {
             return PUNTOS_EXTRA;
         } else {
@@ -21,9 +21,13 @@ public class Participante {
         }
     }
 
-    public void sumarPuntos(ConcursoEspecifico concurso){ puntos =+ calcularPuntos(concurso); }
+    public void sumarPuntos(Concurso concurso){ puntos =+ calcularPuntos(concurso); }
 
     public String getNombre() {
         return nombre;
+    }
+
+    public void inscribirse(Concurso concursoCerrado) {
+
     }
 }

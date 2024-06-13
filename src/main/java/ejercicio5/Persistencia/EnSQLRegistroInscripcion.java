@@ -1,6 +1,6 @@
 package ejercicio5.Persistencia;
 
-import Punto1.Concurso.RegistroConcurso;
+import ejercicio5.Concurso.RegistroConcurso;
 
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;

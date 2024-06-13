@@ -6,12 +6,12 @@ import jakarta.mail.internet.MimeMessage;
 
 import java.util.Properties;
 
-public class NotificarPorMail {
+public class NotificarPorMail implements EnvioMail{
     private static final String USERNAME = "21e60c54fcf1b9";
     private static final String PASSWORD = "4f38f702e543b0";
     private static final String HOST = "sandbox.smtp.mailtrap.io";
 
-    public static void enviarNotificacion(String destinatario, String nombreConcurso) {
+    public void enviarNotificacion(String destinatario, String nombreConcurso) {
         //Propiedades de SMTP de Mailtrap
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
